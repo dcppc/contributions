@@ -18,15 +18,22 @@ contributions - comments, issues, pull
 requests.
 """
 
-OUTPUT_DIR = 'output_%s'%(datetime.now().strftime("%Y%m%d_%M%H%S"))
-LOG_FILE = 'log_top25.log'
-ALL_FILE = 'dcppc_all_contributors.txt'
-TOP_FILE = 'dcppc_top25_contributors.txt'
-GHR_FILE = 'repos.txt'
+OUTPUT_DIR = 'output_%s'%(datetime.now().strftime("%Y%m%d_%H%M%S"))
+os.mkdir(OUTPUT_DIR)
+
+LOG_FILE = os.path.join(OUTPUT_DIR,'log_top25.log')
+GHR_FILE = os.path.join(OUTPUT_DIR,'repos.txt')
+
+ALL_FILE = os.path.join(OUTPUT_DIR,'dcppc_all_contributors.csv')
+TOP_FILE = os.path.join(OUTPUT_DIR,'dcppc_top25_contributors.csv')
+
+ISS_FILE = os.path.join(OUTPUT_DIR,'dcppc_issues_contributors.csv')
+PRS_FILE = os.path.join(OUTPUT_DIR,'dcppc_pulls_contributors.csv')
+
 
 # Limit the number of repos (for testing)
 # If -1, do all repos
-LIMIT = 3
+LIMIT = -1
 
 # Set up logging
 logging.basicConfig(level=logging.INFO,
@@ -40,7 +47,7 @@ logging.getLogger('').addHandler(console)
 def main():
 
     logging.info("Setting up github api")
-
+    
     # set up API with access token
     org = 'dcppc'
     access_token = os.environ['GITHUB_TOKEN']
@@ -54,19 +61,17 @@ def main():
     master_pr_contributors = Counter()
     master_contributors = Counter()
 
-    os.mkdir(OUTPUT_DIR)
-
-    count = 0
+    count = 0 
     logging.info("Iterating through repositories")
     for repo in repos:
-
+        
         logging.info("  On repository %s"%(repo.name))
 
         logging.info("    Iterating through issues")
 
         # Keep it simple:
         # Just create a list of usernames,
-        # one per issue, and count them up
+        # one per issue, and count them up 
         # at the end with a Counter()
 
         issue_contributor_list = []
@@ -121,15 +126,31 @@ def main():
 
     master_contributors = master_issue_contributors + master_pr_contributors
 
+    topN = master_contributors.most_common()
     top25 = master_contributors.most_common(25)
 
+    topPR = master_pr_contributors.most_common()
+    topiss = master_issue_contributors.most_common()
+
     with open(TOP_FILE,'w') as f:
+        f.write("login,count\n")
         for top in top25:
-            f.write("%s: %s\n"%(top))
+            f.write("%s,%s\n"%(top))
 
     with open(ALL_FILE,'w') as f:
-        for c in master_contributors:
-            f.write("%s: %s\n"%(c,master_contributors[c]))
+        f.write("login,count\n")
+        for top in topN:
+            f.write("%s,%s\n"%(top))
+
+    with open(ISS_FILE,'w') as f:
+        f.write("login,count\n")
+        for top in topiss:
+            f.write("%s,%s\n"%(top))
+
+    with open(PRS_FILE,'w') as f:
+        f.write("login,count\n")
+        for top in topPR:
+            f.write("%s,%s\n"%(top))
 
     logging.info("Finished writing top 25 contributors file: %s"%(TOP_FILE))
 
@@ -138,3 +159,4 @@ def main():
 
 if __name__=="__main__":
     main()
+
