@@ -10,7 +10,7 @@ Create an API access token in the Settings page on Github, and pass that into th
 $ GITHUB_TOKEN="AAAAAAAAAAAA" python top_contributors.py
 ```
 
-This will create a new timestamped directory named `output_YYYYMMDD_HHMMDD` that will contain the following files:
+This will create a new timestamped directory named `output_YYYYMMDD_HHMMSS` that will contain the following files:
 
 Logs:
 
