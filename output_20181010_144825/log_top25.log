@@ -1,0 +1,256 @@
+INFO:root:Setting up github api
+INFO:root:Iterating through repositories
+INFO:root:  On repository documentation-archive
+INFO:root:    Iterating through issues
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo documentation-archive
+INFO:root:  On repository organize
+INFO:root:    Iterating through issues
+INFO:root:    On closed issue 50...
+INFO:root:    On closed issue 100...
+INFO:root:    Finished counting issue contributors
+INFO:root:    On closed PR 50...
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo organize
+INFO:root:  On repository apis
+INFO:root:    Iterating through issues
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo apis
+INFO:root:  On repository data-stewards
+INFO:root:    Iterating through issues
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo data-stewards
+INFO:root:  On repository dcppc-phase1-demos
+INFO:root:    Iterating through issues
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo dcppc-phase1-demos
+INFO:root:  On repository dcppc-deliverables
+INFO:root:    Iterating through issues
+INFO:root:    On open issue 50...
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo dcppc-deliverables
+INFO:root:  On repository dcppc-bot
+INFO:root:    Iterating through issues
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo dcppc-bot
+INFO:root:  On repository guids
+INFO:root:    Iterating through issues
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo guids
+INFO:root:  On repository dcppc.github.io
+INFO:root:    Iterating through issues
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo dcppc.github.io
+INFO:root:  On repository design-guidelines-OLD-DO-NOT-USE
+INFO:root:    Iterating through issues
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo design-guidelines-OLD-DO-NOT-USE
+INFO:root:  On repository test-dcppc-deliverables
+INFO:root:    Iterating through issues
+INFO:root:    On open issue 50...
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo test-dcppc-deliverables
+INFO:root:  On repository design-guidelines-discuss-OLD-DO-NOT-USE
+INFO:root:    Iterating through issues
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo design-guidelines-discuss-OLD-DO-NOT-USE
+INFO:root:  On repository crosscut-metadata
+INFO:root:    Iterating through issues
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo crosscut-metadata
+INFO:root:  On repository project-management
+INFO:root:    Iterating through issues
+INFO:root:    On closed issue 50...
+INFO:root:    On closed issue 100...
+INFO:root:    On closed issue 150...
+INFO:root:    On closed issue 200...
+INFO:root:    Finished counting issue contributors
+INFO:root:    On closed PR 50...
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo project-management
+INFO:root:  On repository dcppc-milestones
+INFO:root:    Iterating through issues
+INFO:root:    On closed issue 50...
+INFO:root:    On closed issue 100...
+INFO:root:    On closed issue 150...
+INFO:root:    On closed issue 200...
+INFO:root:    On closed issue 250...
+INFO:root:    On closed issue 300...
+INFO:root:    On closed issue 350...
+INFO:root:    On closed issue 400...
+INFO:root:    On closed issue 450...
+INFO:root:    On closed issue 500...
+INFO:root:    On closed issue 550...
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo dcppc-milestones
+INFO:root:  On repository dcppc-workshops
+INFO:root:    Iterating through issues
+INFO:root:    On closed issue 50...
+INFO:root:    On closed issue 100...
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo dcppc-workshops
+INFO:root:  On repository 2018-may-workshop
+INFO:root:    Iterating through issues
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo 2018-may-workshop
+INFO:root:  On repository internal
+INFO:root:    Iterating through issues
+INFO:root:    On closed issue 50...
+INFO:root:    On closed issue 100...
+INFO:root:    On closed issue 150...
+INFO:root:    Finished counting issue contributors
+INFO:root:    On closed PR 50...
+INFO:root:    On closed PR 100...
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo internal
+INFO:root:  On repository private-www
+INFO:root:    Iterating through issues
+INFO:root:    On closed issue 50...
+INFO:root:    On closed issue 100...
+INFO:root:    On closed issue 150...
+INFO:root:    Finished counting issue contributors
+INFO:root:    On closed PR 50...
+INFO:root:    On closed PR 100...
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo private-www
+INFO:root:  On repository full-stacks
+INFO:root:    Iterating through issues
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo full-stacks
+INFO:root:  On repository 2018-june-workshop
+INFO:root:    Iterating through issues
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo 2018-june-workshop
+INFO:root:  On repository 2018-july-workshop
+INFO:root:    Iterating through issues
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo 2018-july-workshop
+INFO:root:  On repository metadata-matrix
+INFO:root:    Iterating through issues
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo metadata-matrix
+INFO:root:  On repository design-guidelines
+INFO:root:    Iterating through issues
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo design-guidelines
+INFO:root:  On repository design-guidelines-discuss
+INFO:root:    Iterating through issues
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo design-guidelines-discuss
+INFO:root:  On repository lucky-penny
+INFO:root:    Iterating through issues
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo lucky-penny
+INFO:root:  On repository 2018-august-workshop
+INFO:root:    Iterating through issues
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo 2018-august-workshop
+INFO:root:  On repository 2018-september-workshop
+INFO:root:    Iterating through issues
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo 2018-september-workshop
+INFO:root:  On repository nih-demo-meetings
+INFO:root:    Iterating through issues
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo nih-demo-meetings
+INFO:root:  On repository markdown-issues
+INFO:root:    Iterating through issues
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo markdown-issues
+INFO:root:  On repository 2018-paper-dcppc
+INFO:root:    Iterating through issues
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo 2018-paper-dcppc
+INFO:root:  On repository centillion
+INFO:root:    Iterating through issues
+INFO:root:    On closed issue 50...
+INFO:root:    On closed issue 100...
+INFO:root:    Finished counting issue contributors
+INFO:root:    On closed PR 50...
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo centillion
+INFO:root:  On repository public-www
+INFO:root:    Iterating through issues
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo public-www
+INFO:root:  On repository uncle-archie
+INFO:root:    Iterating through issues
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo uncle-archie
+INFO:root:  On repository use-case-library
+INFO:root:    Iterating through issues
+INFO:root:    On closed issue 50...
+INFO:root:    On closed issue 100...
+INFO:root:    Finished counting issue contributors
+INFO:root:    On closed PR 50...
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo use-case-library
+INFO:root:  On repository sodium-documentation
+INFO:root:    Iterating through issues
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo sodium-documentation
+INFO:root:  On repository calendars
+INFO:root:    Iterating through issues
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo calendars
+INFO:root:  On repository data-access
+INFO:root:    Iterating through issues
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo data-access
+INFO:root:  On repository four-year-plan
+INFO:root:    Iterating through issues
+INFO:root:    On closed issue 50...
+INFO:root:    On closed issue 100...
+INFO:root:    Finished counting issue contributors
+INFO:root:    On closed PR 50...
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo four-year-plan
+INFO:root:  On repository 2018-oct-workshop
+INFO:root:    Iterating through issues
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo 2018-oct-workshop
+INFO:root:  On repository cloud-guidebook
+INFO:root:    Iterating through issues
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo cloud-guidebook
+INFO:root:  On repository contributions
+INFO:root:    Iterating through issues
+INFO:root:    Finished counting issue contributors
+INFO:root:    Finished counting PR contributors
+INFO:root:  Done with repo contributions
+INFO:root:Finished writing top 25 contributors file: output_20181010_144825/dcppc_top25_contributors.csv
+INFO:root:Finished writing all contributors file: output_20181010_144825/dcppc_all_contributors.csv
